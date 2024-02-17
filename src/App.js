@@ -7,15 +7,17 @@ import Counter from "./components/Counter";
 import Buttonclick from "./components/Buttonclick";
 import Inputfield from "./components/Inputfield";
 import Inputcopy from "./components/Inputcopy";
+import InputRevision from "./components/InputRevision";
 
 function App() {
   return (
     <div className="App">
-      <Main />
+      {/* <Main />
       <Counter />
       <Buttonclick />
       <Inputfield />
-      <Inputcopy />
+      <Inputcopy /> */}
+      <InputRevision />
     </div>
   );
 }
