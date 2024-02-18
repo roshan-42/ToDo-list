@@ -8,6 +8,7 @@ import Buttonclick from "./components/Buttonclick";
 import Inputfield from "./components/Inputfield";
 import Inputcopy from "./components/Inputcopy";
 import InputRevision from "./components/InputRevision";
+import Todo from "./components/Todo";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Buttonclick />
       <Inputfield />
       <Inputcopy /> */}
-      <InputRevision />
+      {/* <InputRevision /> */}
+      <Todo />
     </div>
   );
 }
